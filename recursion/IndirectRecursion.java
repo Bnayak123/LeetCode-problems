@@ -1,4 +1,4 @@
-package recursion;
+package leetcodeProblames.recursion;
 
 public class IndirectRecursion {
 	public static void main(String[] args) {

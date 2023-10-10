@@ -1,4 +1,4 @@
-package stack_and_queues;
+package leetcodeProblames.stack_and_queues;
 
 public class DynamicStack extends CustomStack {
 
