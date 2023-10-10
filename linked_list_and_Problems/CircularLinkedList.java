@@ -1,4 +1,4 @@
-package linked_list_and_Problems;
+package leetcodeProblames.linked_list_and_Problems;
 
 public class CircularLinkedList {
 	private Node head;
