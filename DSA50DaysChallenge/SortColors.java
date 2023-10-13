@@ -13,7 +13,7 @@ import java.util.Arrays;
 //Output: [0,1,2]
 public class SortColors {
 	public static void sortColors(int[] nums) {
-
+		
 	        int low = 0, mid = 0;
 
 	        int high = nums.length - 1;
