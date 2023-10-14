@@ -54,9 +54,9 @@ public class FourSum {
 	}
 
 	public static void main(String[] args) {
-		int[] nums = { 1, 0, -1, 0, -2, 2 };
+		int[] nums = { 1000000000,1000000000,1000000000,1000000000};
 
-		List<List<Integer>> fourSum = fourSum(nums, 0);
+		List<List<Integer>> fourSum = fourSum(nums, -294967296);
 		for (List<Integer> list : fourSum) {
 			System.out.println(list);
 		}
