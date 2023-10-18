@@ -39,9 +39,8 @@ public class MinimumRemoveToMakeValidParentheses {
 			}
 		}
 		StringBuilder sb = new StringBuilder();
-		HashSet<Integer> set = new HashSet<>(stack);
 		for (int i = 0; i < s.length(); i++) {
-			if (!set.contains(i)) {
+			if (!stack.contains(i)) {
 				sb.append(s.charAt(i));
 			}
 		}
